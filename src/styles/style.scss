@@ -1,0 +1,38 @@
+@import "./variables.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+}
+
+body {
+  font-size: 14px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header-container {
+  background-color: $primary-color;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+
+  h1 {
+    font-size: 22px;
+    padding: 5px 0;
+    color: #fff;
+
+    a {
+      text-decoration: none;
+      &:link,
+      &:visited {
+        color: #fff;
+      }
+    }
+  }
+}
